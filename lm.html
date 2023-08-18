@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HSK Report</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js">
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js">
+    </script>
+</head>
+
+<body>
+    <header>
+        <p class="date"></p>
+        <button class="save" onclick="generatePDF()">SAVE REPORT</button>
+    </header>
+    <button onclick="prev()"> &leftarrow; </button>
+            <div class="room">
+                <div class="title">Melograno</div>
+            </div>
+            <button onclick="next()">&rightarrow;</button>
+            <script src="lm_rooms.js"></script>€
+            <script src="app.js"></script>
+</body>
+
+</html>

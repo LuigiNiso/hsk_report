@@ -12,7 +12,6 @@ class Room {
     }
 }
 var rooms = [];
-var room_names = ["Melograno", "Mirto", "Rosmarino", "Bouganvillea", "Gelsi", "Fico d'India", "Tennis", "Mandorlo", "Ulivo", "Salentina", "Tramonto", "Frutteto", "Lim. Corte", "Lim. Giardino"];
 
 const products = [
     new Product("Carta Igienica", "C", ""),
@@ -45,7 +44,8 @@ const products = [
     new Product("Copri Piumino", "C", ""),
     new Product("Bidet", "C", ""),
     new Product("Copriletto Matr.", "C", ""),
-    new Product("Copriletto Sing.", "C", "")
+    new Product("Copriletto Sing.", "C", ""),
+    new Product("Tappeto Notte.", "C", ""),
 ];
 
 room_names.forEach(name => {
