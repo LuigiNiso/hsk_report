@@ -37,6 +37,7 @@ header button{
     flex-direction: column;
     border-radius: 10px;
     overflow-y: scroll;
+    background-color:white;
     overflow-x: hidden;
 }
 
