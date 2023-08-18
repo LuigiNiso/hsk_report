@@ -1,0 +1,98 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+header{
+    position: absolute;
+    top: 15px;
+    width: 100%;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+header button{
+    height: 50%;
+    width: 10%;
+    cursor: pointer;
+}
+.room{
+    border: solid 1px gainsboro;
+    width: 70%;
+    height: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: column;
+    border-radius: 10px;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+
+.room::-webkit-scrollbar{
+    display: none;
+}
+
+.room .title{
+    background-color: white;
+    width: 100%;
+    font-size: 30px;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: sticky;
+    top: 0;
+}
+
+.room .qnt-container{
+    display: flex;
+    width: 90%;
+    padding: 20px;
+}
+
+.qnt-container p{
+    width: 85%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    padding: 5px;
+    background-color: whitesmoke;
+    justify-content: flex-start;
+}
+
+.qnt-container input{
+    width: 30%;
+    height: 100%;
+    padding: 5px;
+    text-align: center;
+    border: solid 1px gainsboro
+}
+
+button{
+    width: 40px;
+    border: solid 1px rgb(162, 162, 162);
+    margin: 10px;
+    border-radius: 5px;
+    aspect-ratio: 1/1;
+}
+
+.save{
+    width: 50%;
+    background-color: rgb(81, 105, 130);
+    color: white;
+}
+
+.date{
+    font-size: 25px;
+    font-family: 'Roboto', monospace;
+    font-weight: bold;
+}
