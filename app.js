@@ -45,7 +45,7 @@ const products = [
     new Product("Bidet", "C", ""),
     new Product("Copriletto Matr.", "C", ""),
     new Product("Copriletto Sing.", "C", ""),
-    new Product("Tappeto Notte.", "C", ""),
+    new Product("Tappeto Notte", "C", ""),
     new Product("Completo Culla", "C", "")
 ];
 
